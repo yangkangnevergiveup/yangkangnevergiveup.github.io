@@ -1,0 +1,15 @@
+User-agent: *
+Allow: /
+Allow: /archives/
+Allow: /categories/
+Allow: /tags/ 
+Disallow: /images/
+Disallow: /js/
+Disallow: /css/
+Disallow: /fonts/
+Disallow: /vendors/
+Disallow: /fancybox/
+Disallow: /lib/
+
+Sitemap: https://yangkang.tech/sitemap.xml
+Sitemap: https://yangkang.tech/baidusitemap.xml
