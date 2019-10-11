@@ -84,13 +84,13 @@
 
 
 <meta property="og:type" content="website">
-<meta property="og:title" content="tags">
+<meta property="og:title" content="标签">
 <meta property="og:url" content="http://yangkang.tech/tags/index.html">
 <meta property="og:site_name" content="閬苑小書童">
 <meta property="og:locale" content="zh-Hans">
-<meta property="og:updated_time" content="2019-10-11T13:40:31.240Z">
+<meta property="og:updated_time" content="2019-10-11T16:20:29.900Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="tags">
+<meta name="twitter:title" content="标签">
 
 
 
@@ -126,7 +126,7 @@
 
 
 
-  <title>tags | 閬苑小書童</title>
+  <title>标签 | 閬苑小書童</title>
   
 
 
@@ -249,26 +249,20 @@
   
     <div class="site-search">
       
-  
-  <div class="algolia-popup popup search-popup">
-    <div class="algolia-search">
-      <div class="algolia-search-input-icon">
-        <i class="fa fa-search"></i>
-      </div>
-      <div class="algolia-search-input" id="algolia-search-input"></div>
-    </div>
-
-    <div class="algolia-results">
-      <div id="algolia-stats"></div>
-      <div id="algolia-hits"></div>
-      <div id="algolia-pagination" class="algolia-pagination"></div>
-    </div>
-
+  <div class="popup search-popup local-search-popup">
+  <div class="local-search-header clearfix">
+    <span class="search-icon">
+      <i class="fa fa-search"></i>
+    </span>
     <span class="popup-btn-close">
       <i class="fa fa-times-circle"></i>
     </span>
+    <div class="local-search-input-wrapper">
+      <input autocomplete="off" placeholder="搜索..." spellcheck="false" type="text" id="local-search-input">
+    </div>
   </div>
-
+  <div id="local-search-result"></div>
+</div>
 
 
 
@@ -294,7 +288,7 @@
     <div class="post-block page">
       <header class="post-header">
 
-	<h2 class="post-title" itemprop="name headline">tags</h2>
+	<h2 class="post-title" itemprop="name headline">标签</h2>
 
 
 
@@ -311,7 +305,7 @@
                 目前共计 1 个标签
             </div>
             <div class="tag-cloud-tags">
-              <a href="/tags/自我/" style="font-size: 12px; color: #ccc">自我</a>
+              <a href="/tags/自我思考/" style="font-size: 12px; color: #ccc">自我思考</a>
             </div>
           </div>
         
@@ -945,19 +939,6 @@
   </script>
 
 
-
-
-  
-  
-  
-  <link rel="stylesheet" href="/lib/algolia-instant-search/instantsearch.min.css">
-
-  
-  
-  <script src="/lib/algolia-instant-search/instantsearch.min.js"></script>
-  
-
-  <script src="/js/src/algolia-search.js?v=5.1.4"></script>
 
 
 

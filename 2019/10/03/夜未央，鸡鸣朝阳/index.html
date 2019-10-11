@@ -72,7 +72,7 @@
 
 
 
-  <meta name="keywords" content="自我,">
+  <meta name="keywords" content="自我思考,">
 
 
 
@@ -84,14 +84,14 @@
 
 
 <meta name="description" content="&amp;emsp;&amp;emsp;逝者如斯乎，不舍昼夜。&amp;emsp;&amp;emsp;夜未央，不眠，思绪若飞。&amp;emsp;&amp;emsp;时间如涓涓细流，静静流过指间，它每次细微的冲刷都是不可逆的，悄无声息的。这些细微的改变经过经年累月的积累，是慢慢浸润着我们走向成熟，还是癫狂？走向从容，还是无奈？时间也如同奔腾不复还的大江大河，推着我们奔向一个未知的未来，这个未来如同有一个巨大的聚光灯照向我们，让我们步履蹒跚的靠近">
-<meta name="keywords" content="自我">
+<meta name="keywords" content="自我思考">
 <meta property="og:type" content="article">
 <meta property="og:title" content="夜未央，鸡鸣朝阳">
 <meta property="og:url" content="http://yangkang.tech/2019/10/03/夜未央，鸡鸣朝阳/index.html">
 <meta property="og:site_name" content="閬苑小書童">
 <meta property="og:description" content="&amp;emsp;&amp;emsp;逝者如斯乎，不舍昼夜。&amp;emsp;&amp;emsp;夜未央，不眠，思绪若飞。&amp;emsp;&amp;emsp;时间如涓涓细流，静静流过指间，它每次细微的冲刷都是不可逆的，悄无声息的。这些细微的改变经过经年累月的积累，是慢慢浸润着我们走向成熟，还是癫狂？走向从容，还是无奈？时间也如同奔腾不复还的大江大河，推着我们奔向一个未知的未来，这个未来如同有一个巨大的聚光灯照向我们，让我们步履蹒跚的靠近">
 <meta property="og:locale" content="zh-Hans">
-<meta property="og:updated_time" content="2019-10-11T13:42:43.205Z">
+<meta property="og:updated_time" content="2019-10-11T16:18:40.274Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="夜未央，鸡鸣朝阳">
 <meta name="twitter:description" content="&amp;emsp;&amp;emsp;逝者如斯乎，不舍昼夜。&amp;emsp;&amp;emsp;夜未央，不眠，思绪若飞。&amp;emsp;&amp;emsp;时间如涓涓细流，静静流过指间，它每次细微的冲刷都是不可逆的，悄无声息的。这些细微的改变经过经年累月的积累，是慢慢浸润着我们走向成熟，还是癫狂？走向从容，还是无奈？时间也如同奔腾不复还的大江大河，推着我们奔向一个未知的未来，这个未来如同有一个巨大的聚光灯照向我们，让我们步履蹒跚的靠近">
@@ -253,26 +253,20 @@
   
     <div class="site-search">
       
-  
-  <div class="algolia-popup popup search-popup">
-    <div class="algolia-search">
-      <div class="algolia-search-input-icon">
-        <i class="fa fa-search"></i>
-      </div>
-      <div class="algolia-search-input" id="algolia-search-input"></div>
-    </div>
-
-    <div class="algolia-results">
-      <div id="algolia-stats"></div>
-      <div id="algolia-hits"></div>
-      <div id="algolia-pagination" class="algolia-pagination"></div>
-    </div>
-
+  <div class="popup search-popup local-search-popup">
+  <div class="local-search-header clearfix">
+    <span class="search-icon">
+      <i class="fa fa-search"></i>
+    </span>
     <span class="popup-btn-close">
       <i class="fa fa-times-circle"></i>
     </span>
+    <div class="local-search-input-wrapper">
+      <input autocomplete="off" placeholder="搜索..." spellcheck="false" type="text" id="local-search-input">
+    </div>
   </div>
-
+  <div id="local-search-result"></div>
+</div>
 
 
 
@@ -412,7 +406,7 @@
       
         <div class="post-tags">
           
-            <a href="/tags/自我/" rel="tag"># 自我</a>
+            <a href="/tags/自我思考/" rel="tag"># 自我思考</a>
           
         </div>
       
@@ -1059,19 +1053,6 @@
   </script>
 
 
-
-
-  
-  
-  
-  <link rel="stylesheet" href="/lib/algolia-instant-search/instantsearch.min.css">
-
-  
-  
-  <script src="/lib/algolia-instant-search/instantsearch.min.js"></script>
-  
-
-  <script src="/js/src/algolia-search.js?v=5.1.4"></script>
 
 
 
